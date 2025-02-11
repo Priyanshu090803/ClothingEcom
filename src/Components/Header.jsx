@@ -1,4 +1,4 @@
-
+import { LOGO_URL } from "../Utils/contants"
 const Header = () => {
   return (
     <div>
@@ -6,7 +6,8 @@ const Header = () => {
         <div className="logo-container">
           <img
             className="logo"
-
+            src={LOGO_URL}
+            
           ></img>
         </div>
         <div className="nav-items">

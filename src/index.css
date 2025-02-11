@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 html{
   font-size: 62.5%;
 }
@@ -10,18 +12,18 @@ html{
   justify-content: space-between;
   display: flex;
   align-items: center;
-  
+ 
 }
 .logo{
   width: 6rem;
-  padding-left: 1rem;
+  margin-left:1rem ;
   cursor: pointer;
+  border-radius: .6rem;
 
 }
 
 .nav-items{
   padding:  0 20px;
-  /* border: 2px solid black; */
 }
 
 .nav-items > ul{
@@ -34,4 +36,10 @@ html{
   padding: 1rem;
   margin: 1rem;
   cursor: pointer;
+}
+
+.ClothCard{
+height: 10rem;
+width:  10rem;
+
 }
